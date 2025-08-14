@@ -1,0 +1,457 @@
+(footprint "pms7003"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PLANTOWER PMS7003 Digital Particle Concentration Sensor, 48x37x12mm, 10-pin connector")
+	(tags "sensor particle pm2.5 plantower")
+	(property "Reference" "U"
+		(at 0 -20.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c4dc1fa0-eacb-4f9c-91ce-3acf439faf19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PMS7003"
+		(at 0 20.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ab39b05-aac5-4229-a32b-d676cabb4a50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15f42d01-a03b-4a66-8b53-b19e9bca7720")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f3ea54c-2fec-4d20-aa8a-fbaa7edc02e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -24 -18.5)
+		(end 24 18.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d0fd087d-e770-41e1-a0df-fe1a2c594245")
+	)
+	(fp_rect
+		(start -12.7 -18.5)
+		(end 12.7 -15.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e1e8611d-ac78-4a14-af4f-a949946831c5")
+	)
+	(fp_circle
+		(center -11.43 -20)
+		(end -10.93 -20)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d99ac6a5-277a-43d8-aa13-b9664778a79b")
+	)
+	(fp_rect
+		(start -24.5 -21)
+		(end 24.5 19)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3fbf587f-1492-4838-96ff-dca27bb065a7")
+	)
+	(fp_rect
+		(start -24 -18.5)
+		(end 24 18.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "85d6d259-13f7-4a49-a146-be52e951815e")
+	)
+	(fp_text user "VCC"
+		(at -8.89 -14.5 0)
+		(layer "F.SilkS")
+		(uuid "04c2b80a-08b1-4b69-8e9d-aeaa0b336edf")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "AIR IN"
+		(at -15 0 90)
+		(layer "F.SilkS")
+		(uuid "0706044e-05f9-4772-acc3-083a5b2ae302")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(fp_text user "NC"
+		(at 6.35 -14.5 0)
+		(layer "F.SilkS")
+		(uuid "14d7862b-38dd-474f-ba93-196dfc5ec0ef")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "RST"
+		(at -1.27 -14.5 0)
+		(layer "F.SilkS")
+		(uuid "297333bb-affe-4cf0-ae19-6d412c8b3623")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "RX"
+		(at 3.81 -14.5 0)
+		(layer "F.SilkS")
+		(uuid "3fd8883c-d511-45e7-b97a-521f7e782940")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "TX"
+		(at 8.89 -14.5 0)
+		(layer "F.SilkS")
+		(uuid "4e24dd92-3115-4d8c-bb43-8a6e68893ec1")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -6.35 -14.5 0)
+		(layer "F.SilkS")
+		(uuid "ab4bfb61-2fa9-42df-b202-f562588a7d95")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -3.81 -14.5 0)
+		(layer "F.SilkS")
+		(uuid "b266e036-fabe-4200-97f3-d17918e17b91")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "VCC"
+		(at -11.43 -14.5 0)
+		(layer "F.SilkS")
+		(uuid "dae14f4b-99c9-4229-b312-846366ad125e")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "SET"
+		(at 11.43 -14.5 0)
+		(layer "F.SilkS")
+		(uuid "e5952613-3fd1-4e79-9371-fff089deb245")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "NC"
+		(at 1.27 -14.5 0)
+		(layer "F.SilkS")
+		(uuid "e5f8c85c-455d-4ca1-a806-3109ec2bf05a")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "AIR OUT"
+		(at 15 0 90)
+		(layer "F.SilkS")
+		(uuid "fc7802d2-1246-4974-be44-27935a2e9057")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(fp_text user "PMS7003"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0e9cb048-2646-4b98-afee-0ee59e7da281")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.4)
+			)
+		)
+	)
+	(fp_text user "3"
+		(at -6.35 -19 0)
+		(layer "F.Fab")
+		(uuid "46966300-9b10-4c76-aed2-24c59c3919b7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at -8.89 -19 0)
+		(layer "F.Fab")
+		(uuid "46abd8b0-182f-44b1-ae9c-9e9a050aee2c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "6"
+		(at 1.27 -19 0)
+		(layer "F.Fab")
+		(uuid "480d0176-854e-45da-8c4e-9831a7280ace")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "7"
+		(at 3.81 -19 0)
+		(layer "F.Fab")
+		(uuid "62957d90-b060-404f-8bd5-c236d970e872")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "4"
+		(at -3.81 -19 0)
+		(layer "F.Fab")
+		(uuid "6db45b9d-977e-47af-8419-0fe26634e61f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "5"
+		(at -1.27 -19 0)
+		(layer "F.Fab")
+		(uuid "98b53e6d-84b0-446f-a1a4-c344ffc07e57")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "1"
+		(at -11.43 -19 0)
+		(layer "F.Fab")
+		(uuid "acba120f-ed04-4e1b-8d43-645316c6de7b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "10"
+		(at 11.43 -19 0)
+		(layer "F.Fab")
+		(uuid "b1e4bc39-e7d1-4521-940b-5433ed041383")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "9"
+		(at 8.89 -19 0)
+		(layer "F.Fab")
+		(uuid "bee3354d-98e8-4152-9507-0d4d61826e08")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "8"
+		(at 6.35 -19 0)
+		(layer "F.Fab")
+		(uuid "edb0704e-a3dc-49de-99fb-e0daa460741a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -11.43 -17)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b70365c6-cc4a-4e7c-b477-f3dd67101684")
+	)
+	(pad "2" thru_hole circle
+		(at -8.89 -17)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6ca66db-c20f-4523-abc5-196954184323")
+	)
+	(pad "3" thru_hole circle
+		(at -6.35 -17)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4064dd4f-3296-406d-a284-c5933eb95fe9")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 -17)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "baddbe1c-f25d-496c-bd5e-ef73245e6992")
+	)
+	(pad "5" thru_hole circle
+		(at -1.27 -17)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "00dbd810-7c95-4dfc-bfea-f98d2ed9d868")
+	)
+	(pad "6" thru_hole circle
+		(at 1.27 -17)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e092e14-fef7-40e3-a32a-f5eae516bf20")
+	)
+	(pad "7" thru_hole circle
+		(at 3.81 -17)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2625c6c8-148b-4e5c-ba60-676e20304cc9")
+	)
+	(pad "8" thru_hole circle
+		(at 6.35 -17)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa824a86-81d7-4067-83ba-bbfe7af4de27")
+	)
+	(pad "9" thru_hole circle
+		(at 8.89 -17)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe45a4a3-c03c-45ad-9b32-3378966167c5")
+	)
+	(pad "10" thru_hole circle
+		(at 11.43 -17)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e8eda18c-d17e-4320-81f6-ed1c9d211e66")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Sensor.3dshapes/PMS7003.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
