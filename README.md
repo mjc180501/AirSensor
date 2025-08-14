@@ -11,13 +11,13 @@ The physical device is an air quality monitor designed in KiCad. It integrates s
 2. Firmware
 The firmware is written in C++ for the ESP32-WROOM-32. It performs the following functions:
 
-Reads data from the connected BME680 and PMS7003 sensors.
+  - Reads data from the connected BME680 and PMS7003 sensors.
 
-Broadcasts the sensor readings over Bluetooth Low Energy (BLE).
+  - Broadcasts the sensor readings over Bluetooth Low Energy (BLE).
 
-Controls a status LED and an OLED display to provide visual feedback and show sensor data locally.
+  - Controls a status LED and an OLED display to provide visual feedback and show sensor data locally.
 
-Manages user input via a button to cycle through different display modes.
+  - Manages user input via a button to cycle through different display modes.
 
 3. iOS App (Client)
 The iOS application serves as a BLE client. It is designed to:
