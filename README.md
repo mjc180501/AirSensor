@@ -22,11 +22,11 @@ Manages user input via a button to cycle through different display modes.
 3. iOS App (Client)
 The iOS application serves as a BLE client. It is designed to:
 
-Scan for and connect to the air quality monitor device.
+  - Scan for and connect to the air quality monitor device.
 
-Receive real-time sensor data from the device's BLE service.
+  - Receive real-time sensor data from the device's BLE service.
 
-Display the temperature, humidity, pressure, and PM2.5 values in a user-friendly interface.
+  - Display the temperature, humidity, pressure, and PM2.5 values in a user- friendly interface.
 
 4. Backend API (Server)
 This component is a Node.js server intended to act as a central hub for the data. In future development, the server will receive data from the physical device and store it, allowing for historical data analysis and remote access.
@@ -34,11 +34,11 @@ This component is a Node.js server intended to act as a central hub for the data
 Getting Started
 To get the project running, you will need to:
 
-Flash the firmware onto the ESP32 device.
+  - Flash the firmware onto the ESP32 device.
 
-Run the Node.js server on your local machine.
+  - Run the Node.js server on your local machine.
 
-Build and run the iOS app on an iPhone with Bluetooth enabled to connect to the device.
+  - Build and run the iOS app on an iPhone with Bluetooth enabled to connect to the device.
 
 Contributing
 Contributions are welcome! Please feel free to open an issue or submit a pull request.
